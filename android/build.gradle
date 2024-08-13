@@ -34,6 +34,6 @@ android {
     }
     dependencies {
         implementation fileTree(dir: 'libs', include: ['*.jar'])
-        api 'com.razorpay:checkout:1.6.+'
+        api 'com.razorpay:checkout:1.6.41' // Fix issue: https://github.com/razorpay/razorpay-flutter/issues/400
     }
 }
